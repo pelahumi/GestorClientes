@@ -1,8 +1,8 @@
-import os 
+import helpers
 
 def iniciar():
     while True:
-        os.system("clear")
+        helpers.limpiar_pantalla()
         print("========================") 
         print(" BIENVENIDO AL Manager ") 
         print("========================") 
@@ -15,7 +15,7 @@ def iniciar():
         print("========================")
 
         opcion = input("> ")
-        os.system("clear")
+        helpers.limpiar_pantalla()
 
         if opcion == "1":
             print("Listando los clientes....\n")
@@ -31,3 +31,4 @@ def iniciar():
             print("Saliendo...\n")
         
         input("\nPresiona ENTER para continuar...")
+        
