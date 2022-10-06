@@ -1,7 +1,7 @@
 import copy
 import unittest
 import gestor.database as db 
-import helpers
+import gestor.helpers as helpers
 import csv
 import config
 
