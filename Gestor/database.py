@@ -22,7 +22,7 @@ class Clientes():
     @staticmethod
     def guardar():
         with open("clientes.csv", "w", newline="\n") as fichero:
-            writer = csv.writer(ficehro, delimiter= ";")
+            writer = csv.writer(fichero, delimiter= ";")
             for c in Clientes.lista:
                 writer.writerow((c.dni, c.nombre, c.apellido))
 
