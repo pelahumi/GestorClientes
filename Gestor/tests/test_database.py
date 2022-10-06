@@ -1,7 +1,7 @@
 import copy
 import unittest
-from Gestor.database import Cliente
-import database as db
+import Gestor.database as db
+
 
 class TestDatabase(unittest.TestCase):
 
