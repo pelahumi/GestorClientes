@@ -1,6 +1,6 @@
 import copy
 import unittest
-import Gestor.database as db
+import database as db
 import helpers
 
 
