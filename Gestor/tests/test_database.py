@@ -49,7 +49,7 @@ class TestDatabase(unittest.TestCase):
     def test_escritura_csv(self):
         db.Clientes.borrar("48H")
         db.Clientes.borrar("15J")
-        db.Clientes.modificar("28Z", "Marian", "Pérez")
+        db.Clientes.modificar("28Z", "Mariana", "Pérez")
 
         dni, nombre, apellido = None, None, None
         with open(config.DATABASE_PATH, newline = "\n") as fichero:
