@@ -1,2 +1,2 @@
 # GestorClientes
-Link para el repositorio: GitHub(https://github.com/pelahumi/GestorClientes)
+Link para el repositorio: [GitHub](https://github.com/pelahumi/GestorClientes)
